@@ -1,9 +1,16 @@
 
 /* Header */
+
+
+/* nav desktop synlig */
 .HeaderNav{
     display: flex;
     justify-content: space-between;
+}
 
+/* nav burger usyinlig */
+.headerBurger{
+    display: none;
 }
 
 .HeaderUl{
@@ -14,6 +21,20 @@
 }
 
 .burgerIcon{
-    height: 32px;
-    width: 32px;
+   display: none;
 }
+
+@media (max-width: 769px) {
+    /* nav usynlig */
+    .HeaderNav{
+        display: none;
+    }
+
+    /* burger nav synlig */
+    .burgerIcon{
+        display: inline;
+        height: 32px;
+        width: 32px;
+    }
+}
+
