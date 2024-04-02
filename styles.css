@@ -1,0 +1,19 @@
+
+/* Header */
+.HeaderNav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.HeaderUl{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    padding-inline-start: 0; 
+}
+
+.burgerIcon{
+    height: 32px;
+    width: 32px;
+}
